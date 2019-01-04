@@ -1,8 +1,6 @@
 
 ## imports
 from pyspark.sql import SparkSession
-import numpy as np
-import pandas as pd
 import re
 from pyspark.ml.evaluation import RegressionEvaluator
 from pyspark.ml.recommendation import ALS
